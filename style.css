@@ -1,0 +1,89 @@
+body {
+    font-family: "Noto Sans TC", sans-serif;
+    margin: 0;
+    margin-right: 12rem;
+    margin-left: 12rem;
+    padding: 0;
+    background-color: #f7f7f0;
+    color: #333;
+
+    background-color: #f2d29c;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='80' height='80' viewBox='0 0 80 80'%3E%3Cg fill='%23ae9452' fill-opacity='0.28'%3E%3Cpath fill-rule='evenodd' d='M11 0l5 20H6l5-20zm42 31a3 3 0 1 0 0-6 3 3 0 0 0 0 6zM0 72h40v4H0v-4zm0-8h31v4H0v-4zm20-16h20v4H20v-4zM0 56h40v4H0v-4zm63-25a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm10 0a3 3 0 1 0 0-6 3 3 0 0 0 0 6zM53 41a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm10 0a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm10 0a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm-30 0a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm-28-8a5 5 0 0 0-10 0h10zm10 0a5 5 0 0 1-10 0h10zM56 5a5 5 0 0 0-10 0h10zm10 0a5 5 0 0 1-10 0h10zm-3 46a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm10 0a3 3 0 1 0 0-6 3 3 0 0 0 0 6zM21 0l5 20H16l5-20zm43 64v-4h-4v4h-4v4h4v4h4v-4h4v-4h-4zM36 13h4v4h-4v-4zm4 4h4v4h-4v-4zm-4 4h4v4h-4v-4zm8-8h4v4h-4v-4z'/%3E%3C/g%3E%3C/svg%3E");
+}
+  
+header {    
+    /*background-color: #ae6c09;*/
+    color: white;
+    position: fixed;
+    position: fixed;
+    top: 0;
+    left: 8rem;
+    width: 80%;
+    z-index: 1000; /* 確保浮在其他元素上面 */
+    background-image: url('header_background.jpg');
+    background-size: cover;       /* 讓背景圖片覆蓋整個畫面 */
+    background-position: center;  /* 將背景圖片置中 */
+    background-repeat: no-repeat; /* 防止背景圖片重複 */
+    padding: 2rem;
+    border-radius: 12px;
+    text-align: center;
+    margin-bottom: 6rem;
+    
+}
+
+.profile-header {
+    display: flex;
+    align-items: flex-end; /* 垂直置中 */
+    padding: 1rem;
+    
+    border-bottom: 1px solid #ccc;
+    
+}
+  
+  .profile-pic {
+    width: 168px;
+    height: 188px;
+    /*border-radius: 50%; /* 圓形照片 */
+    object-fit: cover;
+    margin-left: 2rem;
+    margin-right: 1rem;
+    margin-top: 2rem;
+    transform: translateY(+30px); /*  突破上方邊界 */
+    box-shadow: 4px 4px 8px rgba(255, 255, 255, 0.3);
+    
+}
+  
+.profile-name {
+    font-size: 2rem;
+    margin: 0;
+}
+
+section {
+    background-color: #fff8f0;
+    border: 2px dashed #f4a261;
+    border-radius: 12px;   
+    padding: 1.5rem;
+    margin: 1rem 0;
+    /*border-bottom: 1px solid #ccc;*/          
+}
+.font-size-1 {
+    font-size: 12px;
+    color: #666666;
+}
+
+.autobiography {
+    background-color: #fff8f0;
+    border: 2px dashed #f4a261;
+    border-radius: 12px;
+    padding: 1.5rem;
+    margin: 1rem 0;
+    font-size: 1rem;
+    line-height: 1.8;
+  }
+
+footer {
+    text-align: center;
+    padding: 2px;
+    background-color: #eee;
+    margin-top: 2rem;
+}
